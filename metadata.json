@@ -1,0 +1,6 @@
+{
+  "name": "Bolso Estudante",
+  "description": "Aplicativo de educação financeira e controle de gastos para estudantes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

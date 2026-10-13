@@ -1,0 +1,34 @@
+# Git e metadados
+.git
+.github
+.gitignore
+
+# Dependências e builds locais (o Docker instala/builda do zero)
+node_modules
+dist
+build
+coverage
+*.tsbuildinfo
+
+# Segredos e env local (nunca entrar na imagem)
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Artefatos de ferramentas locais
+.freebuff
+assets/.aistudio
+
+# Arquivos que não interessam ao build
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+README.md
+.vscode
+.idea
+.DS_Store
